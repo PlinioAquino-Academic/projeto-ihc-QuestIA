@@ -46,7 +46,7 @@ Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
     Sim.
 
 ## Desenvolvimento
-- [Análise de Concorencia](docs/2_concorencia.md)
+- [Análise de Concorrencia](docs/2_concorrencia.md)
 - [Personas](docs/3_personas.md)
 - [Cenário de Análise/Problema](docs/4_cenarios.md)
 - [Análise de Tarefas](docs/5_analise_tarefas.md)
