@@ -1,22 +1,59 @@
-# Avaliação de IHC através de Inspeção Heurística
+# 1) Avaliação de IHC através de inspeção HEURÍSTICA
 
-A avaliação heurística é um método de inspeção de usabilidade que ajuda a identificar problemas de interface através da análise sistemática baseada em princípios conhecidos (heurísticas).
+**Descrição da avaliação**
 
-## Heurísticas Analisadas (Nielsen)
+Avaliação heurística, definida por Nielsen e Molich (1994), é um método de avaliação de usabilidade onde um avaliador procura problemas de usabilidade numa interface com o usuário através da análise e interpretação de um conjunto de princípios ou heurísticas. Este método de avaliação é baseado no julgamento do avaliador.
 
-1. **Visibilidade do status do sistema:** O sistema informa o progresso da correção da IA?
-2. **Compatibilidade entre o sistema e o mundo real:** Os termos "discrepância" e "lacunas de aprendizado" são claros para o professor?
-3. **Controle e liberdade do usuário:** O professor pode desfazer uma correção automática facilmente?
-4. **Consistência e padrões:** As cores verde e vermelho seguem o padrão esperado (acerto/erro)?
-5. **Prevenção de erros:** O sistema avisa se o aluno tentar enviar uma resposta em branco?
-6. **Reconhecimento em vez de recordação:** O dashboard facilita a identificação de problemas sem exigir que o professor lembre de dados anteriores?
-7. **Flexibilidade e eficiência de uso:** Existem atalhos para corretores experientes?
-8. **Estética e design minimalista:** A tela de input de resposta evita distrações desnecessárias?
-9. **Ajuda os usuários a reconhecerem, diagnosticarem e recuperarem de erros:** As mensagens de erro de conexão ou de processamento são úteis?
-10. **Ajuda e documentação:** Existe um guia rápido sobre como interpretar os gráficos de calor?
+**Tabela 1 - Conjunto de heurísticas de Nielsen (1994)**
 
-## Resultados da Inspeção
-*   **Problema Identificado:** O tamanho da fonte na primeira versão do protótipo era excessivo, prejudicando a leitura de textos longos (Heurística 8).
-*   **Ação Tomada:** Redução do tamanho da fonte e ajuste do contraste para melhorar a legibilidade.
-*   **Problema Identificado:** Insegurança sobre os critérios do algoritmo (Heurística 10).
-*   **Ação Tomada:** Inclusão do comparativo lado a lado para explicar a origem da nota.
+| ID | Heurística | Descrição |
+| :---: | :--- | :--- |
+| 1 | **Visibilidade do status do sistema** | O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em um tempo razoável. |
+| 2 | **Compatibilidade entre sistema e mundo real** | O sistema deve utilizar a linguagem do usuário, com palavras, frases e conceitos familiares para ele. Seguir convenções do mundo real, fazendo com que a informação apareça em uma ordem lógica e natural. |
+| 3 | **Controle e liberdade para o usuário** | Suporte a "saídas de emergência" (undo/redo) para quando usuários escolhem funções por engano. |
+| 4 | **Consistência e padrões** | Usuários não devem ter que adivinhar se diferentes palavras, situações ou ações significam a mesma coisa. |
+| 5 | **Prevenção de erros** | Melhor que uma boa mensagem de erro é um design que previne o problema de acontecer. |
+| 6 | **Reconhecimento em lugar de lembrança** | Minimizar a carga de memória do usuário tornando objetos, ações e opções visíveis. |
+| 7 | **Flexibilidade e eficiência de uso** | Aceleradores (atalhos) para usuários experientes, permitindo que o sistema atenda a ambos os perfis. |
+| 8 | **Projeto minimalista e estético** | Diálogos não devem conter informações irrelevantes ou raramente necessárias. |
+| 9 | **Auxiliar os usuários a reconhecer, diagnosticar e recuperar erros** | Mensagens de erro devem ser expressas em linguagem natural, indicar o problema e sugerir uma solução. |
+| 10 | **Ajuda e documentação** | Informações fáceis de encontrar, centradas na tarefa e com passos concretos. |
+
+**Tabela 2 - Grau de severidade dos problemas de usabilidade**
+
+| Grau | Tipo | Descrição |
+| :---: | :--- | :--- |
+| 0 | Sem importância | Não afeta a operação da interface. |
+| 1 | Cosmético | Não há necessidade imediata de solução. |
+| 2 | Simples | Problema de baixa prioridade (pode ser reparado). |
+| 3 | Grave | Problema de alta prioridade (deve ser reparado). |
+| 4 | Catastrófico | Muito grave, deve ser reparado de qualquer forma. |
+
+---
+
+## Relato de Violações Encontradas
+
+### Problema 1: Tamanho de fonte excessivo no feedback
+![Screenshot 2026-04-08 at 19 54 08](https://github.com/user-attachments/assets/d9354f38-24ba-4ab8-be63-841ce4c760b5)
+
+| Heurística Violada | Grau de Severidade | Descrição do Problema | Sugestão de Melhoria |
+| :--- | :---: | :--- | :--- |
+| 8. Projeto minimalista e estético | 1 (Cosmético) | A fonte utilizada para o texto de feedback era excessivamente grande, causando poluição visual e exigindo rolagem desnecessária. | Reduzir o tamanho da tipografia para padrões de leitura web (16px a 18px). |
+
+### Problema 2: Falta de botão para cancelar submissão
+![Input de Respostas](https://github.com/user-attachments/assets/771b047a-863e-4883-ac0f-3fc40a71a518)
+
+| Heurística Violada | Grau de Severidade | Descrição do Problema | Sugestão de Melhoria |
+| :--- | :---: | :--- | :--- |
+| 3. Controle e liberdade para o usuário | 2 (Simples) | Uma vez que o aluno inicia a questão, não há um botão claro de "Desistir" ou "Voltar" sem submeter. | Incluir um botão de "Voltar" que salve o rascunho ou cancele a sessão. |
+
+---
+
+# 2) INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA - HEURÍSTICAS NÃO VIOLADAS
+
+**Exemplo de atendimento de heurística no QuestIA:**
+
+### Heurística 1: Visibilidade do status do sistema
+![Feedback IA](https://github.com/user-attachments/assets/b618c376-c29f-4839-a8bb-43a7558e9d31)
+
+**Descrição:** Após clicar em "Solicitar Correção", o sistema exibe imediatamente um indicador de processamento ("Analisando sua resposta...") e, em seguida, apresenta a nota de forma clara. Isso garante que o usuário saiba que sua ação foi recebida e está sendo processada, cumprindo o requisito de feedback em tempo razoável.
