@@ -1,18 +1,16 @@
-# FIGMA
-
-O Figma é uma ferramenta de design de interface colaborativa que permite criar protótipos interativos.
-
 ## Link do Figma
 [Acesse o protótipo interativo aqui](https://www.figma.com/make/cu46haAbbE4oVyUabN56GE/Dashboard-QuetIA?p=f&t=OhZBDTSvxtfXa0Lu-0)
 
 ## Imagens das telas
 
 ### 1. Tela de Input de Respostas (Aluno)
-![Input de Respostas](https://github.com/user-attachments/assets/771b047a-863e-4883-ac0f-3fc40a71a518)
+https://github.com/user-attachments/assets/27c45b48-2b12-47cf-823b-ed42f350471c
+
 **Descrição:** Interface limpa onde o aluno visualiza o enunciado da questão e possui um campo de texto dedicado para redigir sua resposta. Inclui cronômetro e botão de submissão. (Vídeo feito com projeto em localhost)
 
 ### 2. Feedback do Modelo e Correção (Aluno)
-![Feedback IA](https://github.com/user-attachments/assets/b618c376-c29f-4839-a8bb-43a7558e9d31)
+<img width="1920" height="928" alt="Screenshot 2026-05-11 at 17 37 26" src="https://github.com/user-attachments/assets/eaf69f62-cbbe-4d91-bf5c-a2b270ee9d11" />
+
 **Descrição:** Exibição da nota calculada pela IA e o comparativo lado a lado com o padrão de resposta, destacando em cores os termos técnicos encontrados e os faltantes.
 
 ### 3. Dashboard Estratégico Overview (Professor)
