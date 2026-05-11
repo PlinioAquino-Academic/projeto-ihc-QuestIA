@@ -1,4 +1,4 @@
-# Análise de Concorencia
+# Análise de Concorrência
 
 A análise de concorrência é o processo de identificar e avaliar os concorrentes de uma empresa para entender suas estratégias, pontos fortes e fracos.
 
