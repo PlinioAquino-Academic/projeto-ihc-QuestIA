@@ -1,22 +1,23 @@
-# Planejamento da Avaliação
+# 1) Planejamento de Usabilidade (método DECIDE)
 
-O planejamento da avaliação define o que será testado, como e com quem, garantindo que os resultados sejam úteis para a melhoria da interface.
+O planejamento da avaliação do QuestIA segue o framework DECIDE para garantir uma análise estruturada e centrada no usuário.
 
-## O que será avaliado?
-Serão avaliados os dois fluxos principais do QuestIA:
-1. **Fluxo do Aluno:** Submissão de resposta dissertativa e interpretação do feedback de correção.
-2. **Fluxo do Professor:** Análise do dashboard estratégico e identificação de lacunas de aprendizado da turma.
+| Sigla | Etapa | Descrição |
+| :---: | :--- | :--- |
+| **D** | **Determine** | Determinar os objetivos da avaliação: Validar se o feedback da IA é compreensível para o aluno e se o dashboard estratégico reduz a carga mental do professor ao identificar lacunas de aprendizado. |
+| **E** | **Explore** | Explorar as perguntas a serem respondidas: O aluno consegue identificar o termo técnico faltante no feedback? O professor consegue localizar a questão com pior desempenho em menos de 1 minuto? A interface de fadiga é útil ou intrusiva? |
+| **C** | **Choose** | Escolher os métodos de avaliação: Inspeção Heurística (pelo time de design) e Teste de Usabilidade por Observação (com usuários reais). |
+| **I** | **Identify** | Identificar questões práticas: Seleção de 3-5 alunos de TI e 2 professores corretores. O equipamento será o protótipo de alta fidelidade no Figma acessado via Desktop/Laptop. |
+| **D** | **Decide** | Decidir questões éticas: Aplicação do Termo de Consentimento Livre e Esclarecido (TCLE), garantindo o anonimato dos dados e o direito de desistência a qualquer momento. |
+| **E** | **Evaluate** | Avaliar, interpretar e apresentar os dados: A análise e produção dos resultados precisam considerar o tempo de conclusão das tarefas, a taxa de sucesso e as sugestões qualitativas de melhoria visual e funcional. |
 
-## Como será avaliado?
-A avaliação será dividida em duas etapas:
-1. **Avaliação por Inspeção (Heurística):** Realizada por especialistas em IHC para identificar violações das heurísticas de Nielsen.
-2. **Avaliação por Observação:** Testes de usabilidade com usuários reais (alunos e professores) executando tarefas específicas no protótipo de alta fidelidade.
+---
 
-## Com quem será avaliado?
-* **Alunos:** 3 a 5 estudantes do último ano de Ciência da Computação (perfil Beatriz/Lucas).
-* **Professores:** 2 docentes com experiência em correção de provas dissertativas ou coordenação de curso (perfil Roberto/Marcos).
+# 2) Lista de Instrumentos
 
-## Cronograma e Ferramentas
-* **Ferramenta:** Protótipo interativo no Figma.
-* **Coleta de Dados:** Gravação de tela (com consentimento) e notas de observação.
-* **Período:** [Inserir Data].
+Para a execução deste planejamento, serão utilizados os seguintes instrumentos:
+
+1. **Termo de Consentimento Livre e Esclarecido (TCLE):** Para formalizar a participação ética.
+2. **Questionários de Perfil e Satisfação:** Para entender o background do usuário e sua percepção subjetiva (SUS - System Usability Scale).
+3. **Tabela de Observação:** Para registro sistemático de erros, hesitações e comentários durante a interação com o protótipo.
+4. **Formulário de Avaliação Heurística:** Baseado nas 10 Heurísticas de Nielsen para documentar violações encontradas pelos especialistas.
