@@ -36,3 +36,5 @@
 <img width="1526" height="559" alt="image" src="https://github.com/user-attachments/assets/df27cbca-5fd0-4c4f-a47e-6ec1a78b543f" />
 
 
+https://www.figma.com/make/cu46haAbbE4oVyUabN56GE/Dashboard-QuetIA?p=f
+
