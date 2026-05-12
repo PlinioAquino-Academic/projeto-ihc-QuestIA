@@ -41,4 +41,3 @@
 | Baixa taxa de erros | 20% | Garantir que a diferença entre a nota da IA e o padrão de resposta oficial seja mínima para manter a credibilidade do sistema. |
 | Satisfação do usuário | 20% | Atingir um alto índice de satisfação subjetiva, reduzindo a ansiedade do aluno e a fadiga do corretor humano. |
 | **Total** | **100%** |  |
-
