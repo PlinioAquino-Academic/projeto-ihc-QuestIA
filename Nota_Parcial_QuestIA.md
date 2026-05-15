@@ -1,6 +1,6 @@
 ## Avaliação Parcial dp projeto QuestIA
 
-| Técnica avaliada                           | Peso | Nota sugerida | Justificativa resumida                                                                                                                                                                                  |
+| Técnica avaliada                           | Peso | Nota parcial | Justificativa resumida                                                                                                                                                                                  |
 | ------------------------------------------ | ---: | ------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Conhecimento do Problema                   |    1 |           7,0 | Problema, usuários, benefícios e funcionalidades estão claros, mas faltam campos formais do modelo, como matrícula, título/orientador e estrutura completa de respostas.                                |
 | Análise de Concorrência                    |    2 |           5,5 | Há concorrentes adequados e algumas imagens, mas faltam análise sistemática de UX, referências e padrões/tendências de mercado.                                                                         |
