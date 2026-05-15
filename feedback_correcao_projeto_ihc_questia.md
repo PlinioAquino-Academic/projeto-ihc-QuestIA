@@ -1,6 +1,5 @@
 # Feedback de Correção — Projeto de IHC: QuestIA
 
-**Projeto avaliado:** `projeto-ihc-main.zip`  
 **Tema identificado:** QuestIA — interface para interação com algoritmo de correção automática de questões dissertativas do ENADE.  
 **Equipe identificada no README:** Arthur Soares Sousa e Danilo David Miranda.  
 
