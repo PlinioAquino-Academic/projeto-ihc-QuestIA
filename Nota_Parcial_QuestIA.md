@@ -1,29 +1,4 @@
-
-## Fórmula
-
-**Nota final = Σ(nota do item × peso do item) / Σ(pesos)**
-
-Soma dos pesos:
-
-`1+2+2+3+4+1+3+2+4+5+1+3+5+5 = 41`
-
-Portanto:
-
-**Nota final = soma ponderada / 41**
-
-## Escala de referência para atribuir nota por item
-
-| Situação da entrega                                 | Faixa sugerida |
-| --------------------------------------------------- | -------------: |
-| Ausente ou não identificável                        |          0 a 2 |
-| Muito insuficiente                                  |          2 a 4 |
-| Insuficiente, mas com alguma evidência              |          4 a 5 |
-| Parcialmente atendido                               |        5 a 6,5 |
-| Atendido com ressalvas                              |        6,5 a 8 |
-| Bem atendido                                        |          8 a 9 |
-| Plenamente atendido, com boa qualidade metodológica |         9 a 10 |
-
-## Aplicação ao projeto QuestIA
+## Avaliação Parcial dp projeto QuestIA
 
 | Técnica avaliada                           | Peso | Nota sugerida | Justificativa resumida                                                                                                                                                                                  |
 | ------------------------------------------ | ---: | ------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
